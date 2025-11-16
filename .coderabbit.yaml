@@ -2,27 +2,8 @@ version: 1
 
 reviews:
   enabled: true
-  review_status: true     # set false to disable the check-run summary message
+  review_status: true     # set false to hide the “Review skipped” notice
   ignore_drafts: false
-  auto_review: true       # run on new PRs/updates
-  path_includes:
-    - "**/*.py"
-    - "**/*.js"
-    - "**/*.ts"
-    - "**/*.tsx"
-    - "**/*.go"
-  path_excludes:
-    - "**/*.md"
-    - "docs/**"
-    - "third_party/**"
-  require_label: []       # e.g., ["ai-review"]
-  ignore_label:
-    - "no-ai-review"
-  only_on:
-    branches: ["**"]      # or ["main", "develop", "release/*"]
 
 chat:
   enabled: true
-  commands:
-    review:
-      enabled: true
