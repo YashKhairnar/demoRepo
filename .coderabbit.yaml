@@ -1,9 +1,6 @@
-version: 1
+language: en
 
 reviews:
-  enabled: true
-  review_status: true     # set false to hide the “Review skipped” notice
-  ignore_drafts: false
+  review_status: true
+  draft: true
 
-chat:
-  enabled: true
