@@ -1,2 +1,5 @@
 flask
 sentry-sdk[flask]
+pytest
+pytest-cov
+pytest-mock
