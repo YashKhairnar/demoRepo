@@ -1,2 +1,7 @@
-remote_config:
-  url: "https://your-config-location/.coderabbit.yaml"
+version: 1
+reviews:
+  enabled: true
+  review_status: true      # set to false to hide the “Review skipped” status
+  ignore_drafts: false     # ensure draft PRs are not ignored
+chat:
+  enabled: true
